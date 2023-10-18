@@ -115,6 +115,15 @@ button {
   margin: 3% 0;
 }
 
+.buttons button:hover {
+  background-color: lightyellow;
+}
+
 #calculator-input {
   text-align: right;
+  caret-color: green;
+}
+
+#calculator-input::placeholder {
+  color: green;
 }
